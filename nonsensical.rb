@@ -11,6 +11,7 @@ class Animal
     puts "#{sound}! I am a #{name}"
   end
 
+  # this is a class method
   def self.procreate
     raise "Sorry, cannot procreate because method not implemented"
   end
@@ -39,6 +40,7 @@ class Cat < Mammal
     "purrrrrr"
   end
   def self.procreate
+    # here, the procreate class method returns an instance of Cat
     Cat.new
   end
 end
@@ -78,3 +80,24 @@ end
 class NewSpecies < Animal
   attr_accessor :name, :sound
 end
+
+'''
+  # Lets put it all together now.
+
+  # instantiate the objects
+  cat = Cat.new
+  cobra = Cobra.new
+  dog = Dog.new
+
+  # here is how you call a class method
+  another_cat = Cat.procreate
+
+  # these will print "purrrrrr! I am a cat"
+  cat.says
+  another_cat.says
+
+  # because we implemented attribute accessors in Dog, we can change the name and sound at instance level
+  dog.name = "pitbull"
+  dog.sound = "grrrrrr"
+  dog.says
+'''
