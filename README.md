@@ -16,7 +16,7 @@ To get a crash course on Ruby class inheritance, take a look at the examples in 
 ### Why Object Oriented Programming?
 There is a huge [debate](https://wiki.c2.com/?OopArgumentsDebatesAndDiscussion) surrounding OOP and other programming language paradigms.
 
-In Ruby, everything is an object. Thus, not wanting to embrace OOP when coding in Ruby is self sabotage...
+In Ruby, however, everything is an object. Thus, not wanting to embrace OOP when coding in Ruby is an act of self-sabotage.
 
 ### Exercise
 
@@ -24,5 +24,5 @@ In Ruby, everything is an object. Thus, not wanting to embrace OOP when coding i
 2. Open up the file assignment.rb
 3. In our assignment, we shall implement a query class that looks up and computes COVID-19 daily statistics in Malaysia
 4. You are given a dataset in the form of a CSV file
-5. Refer to the instructions given in assignment.rb
+5. Follow the instructions given in assignment.rb
 

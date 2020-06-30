@@ -61,6 +61,7 @@ def run
   # q = ?
 
   # 2. demonstrate how you can extract the CFR (case-fatality ratio) for any given date
+  # cfr = ?
 
   # 3. Assign the variable n to the number of new cases for the date '2020-03-20'
   # n = ?
@@ -68,8 +69,10 @@ def run
   # 4. Assign the variable t to the total number of cases between '2020-03-01' and '2020-03-31'
   # t = ?
 
-  puts "Number of new cases on 2020-03-20 was: #{n}"
-  puts "Total number of cases between 2020-03-01 and 2020-03-31 was: #{t}"
+  # Uncomment these when ready:
+  #puts "The CFR on 2020-04-01 was: #{cfr}"
+  #puts "Number of new cases on 2020-03-20 was: #{n}"
+  #puts "Total number of cases between 2020-03-01 and 2020-03-31 was: #{t}"
 
 end
 
