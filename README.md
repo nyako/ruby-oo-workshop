@@ -20,8 +20,9 @@ In Ruby, everything is an object. Thus, not wanting to embrace OOP when coding i
 
 ### Exercise
 
-1. Open up the file assignment.rb
-2. In our assignment, we shall implement a query class that looks up and computes COVID-19 daily statistics in Malaysia
-3. You are given a dataset in the form of a CSV file
-4. Refer to the instructions given in assignment.rb
+1. Go to https://repl.it/github/nyako/ruby-oo-workshop
+2. Open up the file assignment.rb
+3. In our assignment, we shall implement a query class that looks up and computes COVID-19 daily statistics in Malaysia
+4. You are given a dataset in the form of a CSV file
+5. Refer to the instructions given in assignment.rb
 
