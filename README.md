@@ -9,5 +9,19 @@ For a brief overview on object-oriented programming, visit [this tutorial](https
 
 For this workshop, we will be using a browser-based IDE from [repl.it](https://repl.it/languages/ruby): https://repl.it/languages/ruby
 
-### Instructions
-1. 
+### Class Examples
+
+To get a crash course on Ruby class inheritance, take a look at the examples in `nonsensical.rb`.
+
+### Why Object Oriented Programming?
+There is a huge [debate](https://wiki.c2.com/?OopArgumentsDebatesAndDiscussion) surrounding OOP and other programming language paradigms.
+
+In Ruby, everything is an object. Thus, not wanting to embrace OOP when coding in Ruby is self sabotage...
+
+### Exercise
+
+1. Open up the file assignment.rb
+2. In our assignment, we shall implement a query class that looks up and computes COVID-19 daily statistics in Malaysia
+3. You are given a dataset in the form of a CSV file
+4. Refer to the instructions given in assignment.rb
+

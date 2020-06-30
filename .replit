@@ -1,2 +1,2 @@
 language = "ruby"
-run = "puts 'hello'"
+run = "ruby assignment.rb"
